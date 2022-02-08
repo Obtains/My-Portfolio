@@ -7,6 +7,7 @@
 body {
     color:rgb(48, 9, 85);
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 header {
@@ -54,13 +55,15 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-.hero {
-    background-image: url(../images/zelda.jpg);
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/image1.jpg");
+    padding: 105px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px;
-    color:#fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
 }
