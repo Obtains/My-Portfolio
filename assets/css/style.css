@@ -53,3 +53,14 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+.hero {
+    background-image: url(../images/zelda.jpg);
+    background-size: cover;
+    padding: 200px;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
