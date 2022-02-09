@@ -67,3 +67,24 @@ header nav ul li a:hover {
     text-align: center;
     color: white;
 }
+
+.about-section {
+    margin: 30px;
+}
+
+.about-section h2 {
+    font-size: 38px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.about-section p {
+    line-height: 1.5;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
