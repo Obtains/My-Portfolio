@@ -136,7 +136,7 @@ header nav ul li a:hover {
 
 .right-column {
     width: 85%;
-    font-size: large;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,8 +160,33 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-bottom: 3px solid var(--primary-color);
 }
 
 footer img {
     width: 15%;
+}
+
+/*Media Queries for smaller desktop*/
+
+@media screen and (max-width: 980px) {
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer img {
+        flex: 25%;
+    }
+}
+
+/*Media Queries for tablets*/
+
+@media screen and (max-width: 768px) {
+    footer img {
+        flex:100%
+    }
+
+    .contact-info {
+        flex: 100%;
+    }
 }
