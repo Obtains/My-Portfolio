@@ -1,0 +1,108 @@
+{
+    "basic_info": {
+      "description_header": "Hello I'm David Shaw",
+      "description": "Field Technician 3 with 5 years of background in Physical Information Technology.  Known for dedication and hard work to get any job done. Looking to transition to web developing or IT using the skills learned with the completion of the Certificate in Full Stack Web Development from the University of North Charlotte.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Hidden Gem",
+        "startDate": "2022",
+        "description": "App to be used as a platform which users can post about unpopular traveling destinations.",
+        "images": [ 
+          "images/portfolio/hidden-gem/screenshot-home.png"
+        ],
+        "url": "https://github.com/Obtains/Hidden-Gem",
+        "technologies": [
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-handlebars-plain",
+            "name": "Handlebars"
+          }
+        ]
+      },
+      {
+        "title": "Cat Facts and Pictures",
+        "startDate": "2022",
+        "description": "App to learn about cat facts and look at several cute cat photos",
+        "images": [
+          "images/portfolio/cat-facts-and-pictures/p1.jpg" 
+        ],
+        "url": "https://github.com/Obtains/Cat-Facts-and-Pictures",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          }
+
+        ]
+      },
+      {
+        "title": "Budget Tracker",
+        "startDate": "2022",
+        "description": "Enables user to add expenses and deposits to their budget with/without internet connection.",
+        "images": [
+          "images/portfolio/budget-tracker/p1.jpg"
+        ],
+        "url": "https://github.com/Obtains/PWA-Budget-Tracker",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Css 3"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Spectrum",
+        "title": "Field Technician 3",
+        "years": "07.2017 - 01.2022",
+        "mainTech": [
+          "Physical IT"
+        ],
+        "technologies": [
+          
+        ]
+      },
+      {
+        "company": "Liles Construction",
+        "title": "Field Operations",
+        "years": "06.2015 - 07.2017",
+        "mainTech": [
+
+        ],
+        "technologies": [
+          
+        ]
+      }
+    ]
+  }
